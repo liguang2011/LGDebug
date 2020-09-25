@@ -1,0 +1,30 @@
+{
+  "name": "LGDebug",
+  "version": "0.1.0",
+  "summary": "A short description of LGDebug.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liguang/LGDebug",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liguang": "alan0609@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/liguang/LGDebug.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGDebug/Classes/**/*",
+  "dependencies": {
+    "FLEX": [
+      "~> 2.1.1"
+    ],
+    "InAppSettingsKit": [
+      "~> 2.8"
+    ]
+  }
+}
