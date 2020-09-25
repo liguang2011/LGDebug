@@ -16,15 +16,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "LGDebug/Classes/**/*",
-  "dependencies": {
-    "FLEX": [
-      "~> 2.1.1"
-    ],
-    "InAppSettingsKit": [
-      "~> 2.8"
-    ]
-  }
+  "resources": "LGDebug/Resources/*.*"
 }

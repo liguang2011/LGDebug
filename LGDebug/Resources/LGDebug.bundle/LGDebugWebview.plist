@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item 4</key>
+	<dict>
+		<key>Type</key>
+		<string>IASKButtonSpecifier</string>
+		<key>Title</key>
+		<string>使用内置WKWebView打开</string>
+		<key>Key</key>
+		<string>LGDebugCustomWebView</string>
+	</dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Title：</string>
+			<key>IASKTextAlignment</key>
+			<string>IASKUITextAlignmentLeft</string>
+			<key>Key</key>
+			<string>LGDebugWebViewTitle</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>URL：</string>
+			<key>DefaultValue</key>
+			<string>https://</string>
+			<key>IASKTextAlignment</key>
+			<string>IASKUITextAlignmentLeft</string>
+			<key>Key</key>
+			<string>LGDebugWebViewURL</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>IASKButtonSpecifier</string>
+			<key>Title</key>
+			<string>使用Safri 浏览器打开</string>
+			<key>Key</key>
+			<string>LGDebugSystemWebView</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>IASKButtonSpecifier</string>
+			<key>Title</key>
+			<string>使用WKWebView</string>
+			<key>Key</key>
+			<string>LGDebugCustomWebView</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>LGDebugWebView</string>
+</dict>
+</plist>

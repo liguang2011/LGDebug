@@ -1,27 +1,16 @@
 PODS:
-  - FLEX (2.1.1)
-  - InAppSettingsKit (2.12)
-  - LGDebug (0.1.0):
-    - FLEX (~> 2.1.1)
-    - InAppSettingsKit (~> 2.8)
+  - LGDebug (0.1.0)
 
 DEPENDENCIES:
   - LGDebug (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - FLEX
-    - InAppSettingsKit
 
 EXTERNAL SOURCES:
   LGDebug:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FLEX: 27b768fcae23a313a1eb115076d429180ca9b472
-  InAppSettingsKit: 363ed5ea061ebcb76d69ca1eed08c8a4fe48baf2
-  LGDebug: 55e55cbcd67aa7952d440ecb50b87bc3f2c8b8e4
+  LGDebug: b27803be12e3e72f258fbc5821a72b1832868413
 
 PODFILE CHECKSUM: 19ba5c3c0c507c90337105610077d715a5d1e53d
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.9.3

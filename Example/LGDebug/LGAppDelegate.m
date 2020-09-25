@@ -18,10 +18,13 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
 
-    UINavigationController *homeNaviController = [[UINavigationController alloc] initWithRootViewController:[LGViewController new]];
+    UINavigationController *homeNaviController = [[UINavigationController alloc] initWithRootViewController:[[LGViewController alloc] init]];
     self.window.rootViewController = homeNaviController;
+    CGRect rect = homeNaviController.view.frame;
+    
     
     LGDebugConfig *config = [[LGDebugConfig alloc] init];
+    config.configBundleFileName = @"LGDebug";
     [LGDebug initWithConfig:config];
     
     return YES;

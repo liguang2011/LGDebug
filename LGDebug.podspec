@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGDebug'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of LGDebug.'
 
 # This description is used to generate tags and improve search results.
@@ -28,9 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/liguang/LGDebug.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'LGDebug/Classes/**/*'
+  s.resource     = 'LGDebug/Resources/*.*'
   
   # s.resource_bundles = {
   #   'LGDebug' => ['LGDebug/Assets/*.png']
@@ -38,8 +39,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'FLEX', '~> 2.1.1'
-  s.dependency 'InAppSettingsKit', '~> 2.8'
+  
+#  s.dependency 'LookinServer'
   
 end
