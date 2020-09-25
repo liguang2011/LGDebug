@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BE8061F4C98C8436E1A7F28 /* Pods_LGDebug_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF679A724B04914ABF85310 /* Pods_LGDebug_Example.framework */; };
 		4295427A1AD5745B119FC950 /* Pods_LGDebug_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480E80173F98763B02BAA3E8 /* Pods_LGDebug_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -73,7 +72,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0BE8061F4C98C8436E1A7F28 /* Pods_LGDebug_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
