@@ -6,7 +6,6 @@
 //
 
 #import "LGDebugNotificationManager.h"
-#import "IASKSettingsReader.h"
 
 @interface LGDebugNotificationManager()
 

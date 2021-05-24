@@ -17,8 +17,6 @@ BOOL DebugKeyMotionIsRunning = NO;
 
 NSString *const DebugIsRunningFlagKey = @"DebugIsRunningFlagKey";
 
-extern NSString *kLGDebugAPISwitchState;
-
 @interface LGDebug()<LGDebugProtocol>
 
 @property (nonatomic, strong)LGDebugWindow *debugWindow;//按钮容器
